@@ -41,8 +41,7 @@ line-height: 15pt;
 
 .text-explic{
 	height: 15rem;
-	width: 	65%;
-
+	width: 	100%;
 }
 
 p{
@@ -59,24 +58,27 @@ width: 100%;
             left: 0;
 }
 
-.explicacion, .explicacion-equipo{
-	height: 25rem;
-	width: 100%;
-	padding: 2rem;
+.explicacion{
+  width: 100%;
+  height: 27rem;
+  display: inline-block;
+  padding: 2rem;
 }
 
 .explicacion-equipo{
+  width: 100%;
+  height: 25rem;
 		height: 40rem;
 		text-align: center;
+    padding: 2rem;
+
 
 }
 
 .text-img-alig{
-  display: inline-block;
-  vertical-align: top;
-  float: right;
-    width: 30%; 
-	object-fit: contain;
+    width: 27%; 
+    float: right;
+    padding-left: 2rem;
   }
 
 nav {
@@ -122,8 +124,9 @@ h1, h2, h3{
 
 
 .explicacion2{
+  padding-top: 2rem;
 	height: 25rem;
-    width: 100%;
+  width: 100%;
 }
 
 
@@ -158,7 +161,7 @@ button:hover {
 
 
 .opcion{
-	min-width: 200px;
+	min-width: 180px;
 	min-height: 235px;
 
   position: relative;
@@ -223,6 +226,15 @@ text-align: center;
     background-size: cover;
     border-radius: 50%;
     margin: 0 auto;
+}
+
+.lorena {
+  width: 16rem;
+  height: 16rem;
+  background-image: url("imagenes/lorena.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .drop{
