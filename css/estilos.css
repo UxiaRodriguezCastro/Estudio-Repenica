@@ -392,6 +392,11 @@ margin-inline: auto;
     border-bottom-color: #FFFFFF;
 }
 
+.fullscreen a {
+  text-decoration:none;
+
+}
+
 .fullscreen p{
 	color: #FFFFFF;
     padding: 2rem;
