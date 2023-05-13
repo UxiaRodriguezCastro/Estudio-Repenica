@@ -372,6 +372,22 @@ margin-inline: auto;
 	font-size: 1.5rem;
 }
 
+.fullscreen button{
+  width: 20%;
+  margin-inline: auto;
+  text-align: center;
+  display: block;
+}@media (max-width: 700px) {
+  .fullscreen button{
+    width: 12rem;
+    margin-inline: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 5rem;
+
+  }
+}
+
 .fullscreen span{
     justify-content: right;
     display: flex;
