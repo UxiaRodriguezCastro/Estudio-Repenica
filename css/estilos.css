@@ -8,14 +8,7 @@ html{
 body {
   margin: 0;
 }
-  
-main{
-	background-color: white;
-}
 
-.contenedor{
-  padding-top: 2rem;
-}
 footer{
 	background: #4C4C4C;
 	width: 100%;
@@ -139,7 +132,8 @@ width: 100%;
 
 main{
 	padding: 5rem;
-	padding-top: 10rem;
+  background-color: white;
+
 }
 h1, h2, h3{
 	  color: #eca023;
