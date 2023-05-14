@@ -1,5 +1,5 @@
 	
-	let fullImgBox, fullImg, titulo, bio;
+	let fullImgBox, fullImg, titulo, bio, fullImgBox2, titulo2, bio2, x;
 	
 	document.addEventListener("DOMContentLoaded", function () {
 	
@@ -11,6 +11,7 @@
 	 bio= document.getElementById("bioProfe");
 	 titulo2= document.getElementById("nombreProfe2");
 	 bio2= document.getElementById("bioProfe2");
+	 x = document.getElementById("myTopnav");
 	
     });
 	
@@ -36,3 +37,11 @@
 	  fullImgBox.style.display = "none";
 	  fullImgBox2.style.display = "none";
 	}	
+
+	function menuFunction() {
+		if (x.className === "topnav") {
+		  x.className += " responsive";
+		} else {
+		  x.className = "topnav";
+		}
+	  }
