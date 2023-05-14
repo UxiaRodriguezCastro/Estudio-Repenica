@@ -46,10 +46,17 @@ width: 100%;
 }
 
 .explicacion{
-  width: 100%;
-  height: 27rem;
+  width: 95%;
+  min-height: 30rem;
   display: inline-block;
   margin-inline: auto;
+}@media (max-width: 700px) {
+  .explicacion{
+    width: 85%;
+    min-height: 40rem;
+    display: inline-block;
+    margin-inline: auto;
+  }
 }
 
 .explicacion-equipo{
@@ -131,14 +138,18 @@ width: 100%;
   }
 
 main{
-	padding: 5rem;
   background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 h1, h2, h3{
 	  color: #eca023;
 }@media (max-width: 700px) {
-  h2{
+  h1,h2{
     text-align: center;
   }
 }
@@ -469,6 +480,7 @@ span{
 }
 
 .grid-gallery {
+  padding-top: 2rem;
   display: grid;
   grid-auto-rows: 200px;
   gap: 1rem;
@@ -542,10 +554,9 @@ span{
 }
 
 form{
-	padding-top: 3rem;
 	max-width: 40rem;
-	margin-inline:auto;
 	text-align:center;
+  padding: 2rem;
 }
 
 .btn-primary{
