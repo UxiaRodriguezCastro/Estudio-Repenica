@@ -76,10 +76,12 @@ width: 100%;
       display: none;
     }
   }
+
   .topnav {
     overflow: hidden;
     background-color: #4C4C4C;
     min-height: 3rem;
+    width: 100%;
   }
   
   .topnav a {
