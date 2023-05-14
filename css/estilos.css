@@ -29,6 +29,15 @@ img{
   width: 15%; 
   padding-bottom: 3rem;
   object-fit: contain;
+}@media (max-width: 700px) {
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%; 
+    padding-bottom: 1rem;
+    object-fit: contain;
+  }
 }
 
 
@@ -170,7 +179,7 @@ h1, h2, h3{
 
 
 .explicacion2{
-  padding-top: 3rem;
+  padding-top: 5rem;
 	height: 25rem;
   width: 100%;
 }
