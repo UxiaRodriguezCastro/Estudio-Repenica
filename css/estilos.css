@@ -73,9 +73,9 @@ footer p {
 
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus , .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-  color: #eca023;
+  color: #e3bd20;
   background: #fefefe;
-  border-color: #eca023;
+  border-color: #e3bd20;
 }
 
 img{
@@ -204,12 +204,12 @@ width: 100%;
   }
   
   .topnav a:hover {
-    background-color: #eca023;
+    background-color: #e3bd20;
     color:  #FFFFFF;
   }
   
   .topnav a.active {
-    background-color: #eca023;
+    background-color: #e3bd20;
     color:  #FFFFFF;
   }
   
@@ -250,7 +250,7 @@ main{
 
 }
 h1, h2, h3{
-	  color: #eca023;
+	  color: #e3bd20;
 }@media (max-width: 700px) {
   h1,h2{
     text-align: center;
@@ -300,7 +300,7 @@ button {
 }
 
 button:hover {
-  background-color: #eca023;
+  background-color: #e3bd20;
 }
 
 
