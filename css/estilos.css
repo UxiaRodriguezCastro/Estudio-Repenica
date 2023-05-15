@@ -144,22 +144,36 @@ width: 100%;
             bottom: 2rem;
             left: 0;
 }
-
-.explicacion{
-  width: 95%;
-  min-height: 30rem;
-  display: inline-block;
-  margin-inline: auto;
-  padding-top: 2rem;
-}@media (max-width: 700px) {
-  .explicacion{
-    padding-top: 2rem;
-    width: 85%;
-    min-height: 30rem;
-    display: inline-block;
-    margin-inline: auto;
-  }
+.container img {
+	width:100%;
+	height: 100%;
+   object-fit: cover;
+   opacity: 0.27;
 }
+
+
+.container {
+	  position: relative;
+  text-align: center;
+	width: 100%;
+	height: 30vh;
+    background: black;
+    overflow: hidden;
+    color: #fff;
+}
+.centered {
+  width: 50%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 4px dotted #E3BD20;
+  border-top: 4px dotted #E3BD20;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .explicacion-equipo{
   width: 100%;
