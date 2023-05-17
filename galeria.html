@@ -12,8 +12,13 @@
 <body>
 <script src="css/js/script.js"> </script>
 <header>
-    <a href="index.html"><img src="css/imagenes/Repenicalogo.webp"></img></a>
-    <div  class="topnav" id="myTopnav">
+    <select name="idioma" class="idioma" onchange="countryHandler(this.value);" id="country">
+        <option value="español" selected>ES</option>
+        <option value="gallego">GL</option>
+      </select>
+      <div class="logo">
+      <a href="index.html"><img src="css/imagenes/Repenicalogo.webp"></img></a>
+      </div>    <div  class="topnav" id="myTopnav">
     <a href="index.html" >Inicio</a>
     <a href="nosotros.html">Sobre nosotros</a>
     <a href="clases.html">Clases</a>
