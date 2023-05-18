@@ -1,5 +1,5 @@
 	
-	let fullImgBox, fullImg, titulo, bio, fullImgBox2, titulo2, bio2, x, idioma;
+	let fullImgBox, fullImg, titulo, bio, fullImgBox2, titulo2, bio2, x, idioma, url;
 	
 	document.addEventListener("DOMContentLoaded", function () {
 	
@@ -12,6 +12,7 @@
 	 titulo2= document.getElementById("nombreProfe2");
 	 bio2= document.getElementById("bioProfe2");
 	 x = document.getElementById("myTopnav");	
+	 url = window.location.pathname;
     });
 	
 	
@@ -47,9 +48,9 @@
 
 	  function countryHandler(value){
 			if (value=="gallego"){
-				location.href = "gl/index.html";
+				location.href = "gl/"+url.substring(url.lastIndexOf('/')+1);
 			} else {
-				location.href = "../index.html";
+				location.href = "../"+url.substring(url.lastIndexOf('/')+1);
 
 			}
 	  }
