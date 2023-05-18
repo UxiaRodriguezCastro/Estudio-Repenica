@@ -494,8 +494,8 @@ text-align: center;
 
 
 .marta {
-    width: 16rem;
-    height: 16rem;
+    width: 13rem;
+    height: 13rem;
     background-image: url("imagenes/marta.jpeg");
     background-size: cover;
     border-radius: 50%;
@@ -510,14 +510,15 @@ text-align: center;
     margin: 0 auto;
 }
 
+
 .nombreequipo{
   font-size: 1.2rem;
 }
 }
 
 .diana {
-    width: 16rem;
-    height: 16rem;
+    width: 13rem;
+    height: 13rem;
     background-image: url("imagenes/diana.jpg");
     background-size: cover;
     border-radius: 50%;
@@ -535,8 +536,8 @@ text-align: center;
 
 
 .lorena {
-  width: 16rem;
-  height: 16rem;
+  width: 13rem;
+  height: 13rem;
   background-image: url("imagenes/lorena.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -552,10 +553,28 @@ text-align: center;
 }
 }
 
+.sergio {
+  width: 13rem;
+  height: 13rem;
+  background-image: url("imagenes/lorena.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}@media (max-width: 700px) {
+  .sergio {
+    width: 10.5rem;
+    height: 10.5rem;
+    background-image: url("imagenes/lorena.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+}
+
 
 .drop{
-	  width: 16rem;
-    height: 16rem;
+	  width: 13rem;
+    height: 13rem;
     background-image: url("imagenes/drop.png");
     background-size: cover;
     border-radius: 50%;
@@ -585,12 +604,12 @@ text-align: center;
 }
 
 .mequipo{
-		min-width: 250px;
+		min-width: 230px;
 		padding: 1rem;		
 		width:25%;
 		height: 25rem;
 		float:left;
-		margin: 2%;
+		margin: 1%;
 }@media (max-width: 700px) {
   .mequipo{
 		min-width: 185px;
@@ -598,7 +617,7 @@ text-align: center;
 		width:25%;
 		height: 25rem;
 		float:left;
-		margin: 2%;
+		margin: 1%;
 }
 }
 
