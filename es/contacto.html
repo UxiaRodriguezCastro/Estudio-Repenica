@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>Repenica</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt;>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" href="css/imagenes/favicon.ico">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="shortcut icon" href="../css/imagenes/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -15,15 +15,15 @@
   <script src="css/js/script.js"> </script>
   <header>
     <select name="idioma" class="idioma" onchange="countryHandler(this.value);" id="country">
-      <option value="español">ES</option>
-      <option value="gallego" selected>GL</option>
+      <option value="español" selected>ES</option>
+      <option value="gallego">GL</option>
     </select>
     <div class="logo">
-      <a href="index.html"><img src="css/imagenes/Repenicalogo.webp"></img></a>
+      <a href="index.html"><img src="../css/imagenes/Repenicalogo.webp"></img></a>
     </div>
     <div class="topnav" id="myTopnav">
       <a href="index.html">Inicio</a>
-      <a href="nosotros.html">Sobre nos</a>
+      <a href="nosotros.html">Sobre nosotros</a>
       <a href="clases.html">Clases</a>
       <a href="galeria.html">Galeria</a>
       <a href="contacto.html" class="active">Contacto</a>
@@ -35,14 +35,14 @@
 
   <main>
     <div class="align">
-      <h1 class="texth2">Horario de atención ao cliente</h1>
+      <h1 class="texth2">Horario de atención al público</h1>
       <table id="horario">
 
         <tr>
 
           <th></th>
 
-          <th>Maña</th>
+          <th>Mañana</th>
 
           <th>Tarde</th>
 
@@ -101,10 +101,10 @@
     </div>
 
     <form action="https://formspree.io/f/mbjebrlr" method="POST">
-      <h1>Escríbenos ou chámanos ao 633 53 82 93</h1>
+      <h1>Escríbenos o llámanos al 633 53 82 93</h1>
       <div class="form-group">
-        <label for="nombre">Nome</label>
-        <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nome..." required>
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre..." required>
       </div>
       <div class="form-group">
         <label for="email">Email</label>
@@ -115,18 +115,18 @@
         <input type="text" class="form-control" name='telefono' id="telefono" placeholder="telefono..." required>
       </div>
       <div class="form-group">
-        <label for="exampleTextarea">Mensaxe</label>
+        <label for="exampleTextarea">Mensaje</label>
         <textarea class="form-mensaje" name='mensaje' id="mensaje" rows="12" cols="10" required></textarea>
       </div>
       <div class="form-group">
-        <input type="checkbox" required> Acepto a política de privacidade.
+        <input type="checkbox" required> Acepto la política de privacidad.
       </div>
       <button class="btn-primary" type="submit">Enviar</button>
     </form>
 
   </main>
   <footer>
-    <p class="texth2">Síguenos nas nosas redes!</p>
+    <p class="texth2">¡Síguenos en nuestras redes!</p>
     <div class="rounded-social-buttons">
       <a class="social-button facebook" href="https://www.facebook.com/estudiorepenica" target="_blank"><i
           class="fa fa-facebook"></i></a>
