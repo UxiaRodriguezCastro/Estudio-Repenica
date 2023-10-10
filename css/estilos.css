@@ -171,7 +171,8 @@ p {
   height: 30vh;
   background: black;
   overflow: hidden;
-  color: #fff;
+  color: #FFFFFF;
+
 }
 
 .centered {
@@ -186,11 +187,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.centered h1 {
-  color: #fff;
-}
-
 
 .explicacion-equipo {
   width: 100%;
@@ -410,7 +406,10 @@ main {
   height: 100%;
 }
 
+.centered h1 {
+  color: #FFFFFF;
 
+}
 
 h1,
 h2,
