@@ -408,7 +408,14 @@ main {
 
 .tituloini {
   color: #FFFFFF;
+  font-size: 2rem;
+}
 
+@media (max-width: 700px) {
+  .tituloini {
+    color: #FFFFFF;
+    font-size: 1rem;
+  }
 }
 
 h1,
