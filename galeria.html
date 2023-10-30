@@ -105,6 +105,26 @@
                     class="fa fa-instagram"></i></a>
         </div>
     </footer>
+    <button id="scrollToTopBtn">Volver arriba</button>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollToTopBtn").style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        document.getElementById("scrollToTopBtn").addEventListener("click", scrollToTop);
+    </script>
 
 </body>
 

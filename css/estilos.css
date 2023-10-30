@@ -26,6 +26,70 @@ html {
   }
 }
 
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  width: 10%;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: #E3BD20;
+  /* Cambia este color si lo deseas */
+  color: #ffffff;
+  /* Cambia este color si lo deseas */
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1320px) {
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    width: 0%;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #E3BD20;
+    /* Cambia este color si lo deseas */
+    color: #ffffff;
+    /* Cambia este color si lo deseas */
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1320px) {
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    min-width: 140px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #E3BD20;
+    /* Cambia este color si lo deseas */
+    color: #ffffff;
+    /* Cambia este color si lo deseas */
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Bertha';
