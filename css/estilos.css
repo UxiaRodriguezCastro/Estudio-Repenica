@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Bertha';
+  src: url(fuentes/Bertha-Bold.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Bertha';
+  src: url(fuentes/Bertha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-image: url("imagenes/caras.png");
   background-size: cover;
@@ -14,6 +28,8 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Bertha';
+  font-weight: normal;
 }
 
 footer {
@@ -27,6 +43,8 @@ footer p {
   margin: 0;
   padding: 2rem;
   font-size: 1.4rem;
+  font-family: 'Bertha';
+  font-weight: normal;
 }
 
 .svg-inline--fa {
@@ -143,6 +161,8 @@ footer a {
 }
 
 p {
+  font-family: 'Bertha';
+  font-weight: normal;
   margin-inline: auto;
   width: auto;
 }
@@ -414,7 +434,7 @@ main {
 @media (max-width: 700px) {
   .tituloini {
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -422,6 +442,8 @@ h1,
 h2,
 h3 {
   color: #e3bd20;
+  font-family: 'Bertha';
+  font-weight: bold;
 }
 
 @media (max-width: 700px) {
@@ -429,6 +451,8 @@ h3 {
   h1,
   h2 {
     text-align: center;
+    font-family: 'Bertha';
+    font-weight: bold;
   }
 }
 
@@ -543,6 +567,16 @@ button:hover {
   }
 }
 
+.mequipo h2 {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1600px) {
+  .mequipo h2 {
+    font-size: 1rem;
+  }
+}
+
 .iframe-div {
   padding-top: 6rem;
   width: 100%;
@@ -578,8 +612,8 @@ iframe {
 
 
 .marta {
-  width: 13rem;
-  height: 13rem;
+  width: 12.5rem;
+  height: 12.5rem;
   background-image: url("imagenes/marta.jpeg");
   background-size: cover;
   border-radius: 50%;
@@ -603,8 +637,8 @@ iframe {
 }
 
 .diana {
-  width: 13rem;
-  height: 13rem;
+  width: 12.5rem;
+  height: 12.5rem;
   background-image: url("imagenes/diana.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -624,8 +658,8 @@ iframe {
 
 
 .lorena {
-  width: 13rem;
-  height: 13rem;
+  width: 12.5rem;
+  height: 12.5rem;
   background-image: url("imagenes/lorena.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -644,9 +678,9 @@ iframe {
 }
 
 .sergio {
-  width: 13rem;
-  height: 13rem;
-  background-image: url("imagenes/lorena.jpg");
+  width: 12.5rem;
+  height: 12.5rem;
+  background-image: url("imagenes/Sergio.jpg");
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
@@ -656,7 +690,7 @@ iframe {
   .sergio {
     width: 10.5rem;
     height: 10.5rem;
-    background-image: url("imagenes/lorena.jpg");
+    background-image: url("imagenes/Sergio.jpg");
     background-size: cover;
     border-radius: 50%;
     margin: 0 auto;
@@ -665,8 +699,8 @@ iframe {
 
 
 .drop {
-  width: 13rem;
-  height: 13rem;
+  width: 12.5rem;
+  height: 12.5rem;
   background-image: url("imagenes/drop.png");
   background-size: cover;
   border-radius: 50%;
@@ -694,7 +728,18 @@ iframe {
   height: 36rem;
   display: flex;
   overflow: auto;
+  overflow-y: hidden;
 
+}
+
+@media (max-width: 700px) {
+  .equipo {
+    text-align: center;
+    width: 100%;
+    height: 26rem;
+    display: flex;
+
+  }
 }
 
 .mequipo {
@@ -719,6 +764,8 @@ iframe {
 
 .mequipo p {
   display: none;
+  font-family: 'Bertha';
+  font-weight: normal;
 }
 
 .button2 {
@@ -768,6 +815,8 @@ iframe {
   border-bottom-style: solid;
   border-bottom-width: .10rem;
   border-bottom-color: #FFFFFF;
+  font-family: 'Bertha';
+  font-weight: bold;
 }
 
 .fullscreen a {
@@ -781,6 +830,8 @@ iframe {
   width: 75%;
   margin-inline: auto;
   font-size: 1.5rem;
+  font-family: 'Bertha';
+  font-weight: normal;
 }
 
 .fullscreen button {
