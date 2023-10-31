@@ -43,8 +43,7 @@ function openFullScreen2(nombre, biografia) {
 }
 
 function closeImg() {
-	document.body.style.overflow = "scroll";
-
+	document.body.style.overflow = "auto";
 	fullImgBox.style.display = "none";
 	fullImgBox2.style.display = "none";
 }
