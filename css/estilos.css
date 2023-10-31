@@ -889,6 +889,7 @@ iframe {
 }
 
 .fullscreen p {
+  margin-bottom: 4rem;
   color: #FFFFFF;
   padding: 2rem;
   width: 75%;

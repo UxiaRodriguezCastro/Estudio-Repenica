@@ -18,22 +18,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function openFullImg(reference) {
 	fullImgBox.style.display = "flex";
-	fullImg.src = reference
+	fullImg.src = reference;
+	document.body.style.overflow = "hidden";
 }
 
 function openFullScreen(nombre, biografia) {
+	// Deshabilitamos el scroll
+	document.body.style.overflow = "hidden";
+
+	// Mostramos la pantalla completa y actualizamos el contenido
 	fullImgBox.style.display = "block";
 	titulo.innerText = nombre;
 	bio.innerText = biografia;
 }
 
 function openFullScreen2(nombre, biografia) {
+	// Deshabilitamos el scroll
+	document.body.style.overflow = "hidden";
+
+	// Mostramos la pantalla completa y actualizamos el contenido
 	fullImgBox2.style.display = "block";
-	titulo2.innerText = nombre;
-	bio2.innerText = biografia;
+	titulo.innerText = nombre;
+	bio.innerText = biografia;
 }
 
 function closeImg() {
+	document.body.style.overflow = "scroll";
+
 	fullImgBox.style.display = "none";
 	fullImgBox2.style.display = "none";
 }
