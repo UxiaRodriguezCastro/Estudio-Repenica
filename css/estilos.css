@@ -904,6 +904,7 @@ iframe {
   margin-inline: auto;
   text-align: center;
   display: block;
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 700px) {
