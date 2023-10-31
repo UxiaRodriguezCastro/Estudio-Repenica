@@ -23,20 +23,14 @@ function openFullImg(reference) {
 }
 
 function openFullScreen(nombre, biografia) {
-	// Deshabilitamos el scroll
 	document.body.style.overflow = "hidden";
-
-	// Mostramos la pantalla completa y actualizamos el contenido
 	fullImgBox.style.display = "block";
 	titulo.innerText = nombre;
 	bio.innerText = biografia;
 }
 
 function openFullScreen2(nombre, biografia) {
-	// Deshabilitamos el scroll
 	document.body.style.overflow = "hidden";
-
-	// Mostramos la pantalla completa y actualizamos el contenido
 	fullImgBox2.style.display = "block";
 	titulo2.innerText = nombre;
 	bio2.innerText = biografia;
