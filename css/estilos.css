@@ -70,7 +70,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: normal;
 }
 
@@ -85,7 +85,7 @@ footer p {
   margin: 0;
   padding: 2rem;
   font-size: 1.4rem;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: normal;
 }
 
@@ -203,7 +203,7 @@ footer a {
 }
 
 p {
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: normal;
   margin-inline: auto;
   width: auto;
@@ -484,7 +484,7 @@ h1,
 h2,
 h3 {
   color: #e3bd20;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 
@@ -493,7 +493,7 @@ h3 {
   h1,
   h2 {
     text-align: center;
-    font-family: 'Bertha';
+    font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
   }
 }
@@ -806,7 +806,7 @@ iframe {
 
 .mequipo p {
   display: none;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: normal;
 }
 
@@ -857,7 +857,7 @@ iframe {
   border-bottom-style: solid;
   border-bottom-width: .10rem;
   border-bottom-color: #FFFFFF;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 
@@ -873,16 +873,17 @@ iframe {
   width: 75%;
   margin-inline: auto;
   font-size: 1.5rem;
-  font-family: 'Bertha';
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: normal;
 }
 
-.fullscreen button {
+.fullscreen div {
   width: 20%;
   margin-inline: auto;
   text-align: center;
   display: block;
   margin-bottom: 4rem;
+  position: relative;
 }
 
 @media (max-width: 700px) {
@@ -1044,7 +1045,7 @@ input[type=email] {
 }
 
 #horario {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Bertha', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-collapse: collapse;
   width: 60%;
   margin-inline: auto;
