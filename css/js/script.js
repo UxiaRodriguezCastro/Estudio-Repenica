@@ -38,8 +38,8 @@ function openFullScreen2(nombre, biografia) {
 
 	// Mostramos la pantalla completa y actualizamos el contenido
 	fullImgBox2.style.display = "block";
-	titulo.innerText = nombre;
-	bio.innerText = biografia;
+	titulo2.innerText = nombre;
+	bio2.innerText = biografia;
 }
 
 function closeImg() {
